@@ -2,14 +2,14 @@
     require_once('database.php');
 
     // 
-    $api_password = "PASSWORD FOR API";
-    $webhook = "YOUR DISCORD WEBHOOK";
+    $api_password = "JamesKitt112!";
+    $webhook = "https://discord.com/api/webhooks/1010005553419911229/O8kajmEvlWA9D46mhBHhlT0h8oDjaT4tlZ4uauXo76KqKOh3WkVMddui53f0TjmOdtcN";
 
     // For Authentification System (Require)
-    $OAUTH2_CLIENT_ID = 'DISCORD OAUTH CLIENT ID';
-    $OAUTH2_CLIENT_SECRET = 'OAUTH CLIENT SECRET';
-    $RedirectUrl = 'http://yoursite.com/async/login';
-    $WhitelistIds = array("WL FOR YOUR IDS","...", "..");
+    $OAUTH2_CLIENT_ID = '1010006806975746118';
+    $OAUTH2_CLIENT_SECRET = 'zQmu087G6ksdzT0GAsq-qMkClvmVNzsF';
+    $RedirectUrl = 'battle-scarred-flak.000webhostapp.com';
+    $WhitelistIds = array("WL FOR YOUR IDS"983997013450428447,"...", "..");
 
     function CheckLogin(){
         if(isset($_SESSION['access_token'])) { return true; }
